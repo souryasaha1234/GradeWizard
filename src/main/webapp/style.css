@@ -1,0 +1,112 @@
+body {
+    background: linear-gradient(90deg, #ea638e, #414ba6);
+    font-family: "Jost", sans-serif;
+    color: white;
+}
+h1 {
+    text-align: center;
+    font-size: 48px;
+    /* color: #232c3d; */
+}
+
+.container {
+    width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 30px;
+    /* background: rgb(11, 59, 90); */
+    background: linear-gradient(-90deg, #C33764, #1D2671);
+    color: white;
+    box-shadow: 0px 0px 40px -5px black;
+}
+.container h2 {
+  text-align: center;
+}
+input[type="number"],
+input[type="text"],
+input[type="email"] {
+    padding: 10px;
+    margin: 10px auto;
+    display: block;
+    border-radius: 10px;
+    border: 1px solid lightgrey;
+    background: none;
+    width: 274px;
+    color: white;
+}
+
+input[type="text"]:focus {
+    outline: invert;
+}
+
+input[type="Submit"] {
+    margin: 10px auto;
+    display: block;
+    width: 40%;
+    height: 40px;
+    border: 1px solid;
+    border-radius: 25px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+input[type="Submit"]:hover {
+    background-color: darkkhaki;
+    color: #e9f4fb;
+    transition: 0.5s;
+}
+
+.controls {
+    width: 294px;
+    margin: 15px auto;
+}
+
+.add {
+    padding: 5px;
+    border: 1px solid;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.remove {
+    float: right;
+    padding: 5px;
+    border: 1px solid;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.controls button i {
+    margin-right: 5px;
+}
+
+.remove:hover,
+.add:hover {
+  color: #e9f4fb;
+  transition: 0.5s;
+}
+.remove:hover {
+  background-color: red;
+}
+.add:hover {
+  background-color: seagreen;
+}
+.result_table{
+    margin: auto;
+    margin-top: 50px;
+	margin-bottom: 30px;
+    width: 60%;
+    text-align: center;
+}
+.studentDetails h1 {
+    color: wheat;
+}
+.studentDetails table{
+    margin: auto;
+    width: fit-content;
+    text-align: center;
+    color: cyan;
+}
+.studentDetails table td {
+    padding-left: 10px;
+    padding-right: 10px;
+}
